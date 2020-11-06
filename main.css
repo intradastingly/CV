@@ -1,0 +1,38 @@
+main {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proficiencies {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.skills-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 0rem 7rem 4rem 7rem;
+}
+
+.skills-ul > li {
+    font-size: 1.4rem;
+    list-style-type: none;
+    padding: 0.3rem;
+}
+
+.right > li {
+  
+} 
+
+.line {
+    height: 2px;
+    background-color: black;
+    width: 30rem;
+    margin-bottom: 1rem;
+    left: 0;
+}

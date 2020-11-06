@@ -33,3 +33,32 @@ main {
     margin-bottom: 1rem;
     left: 0;
 }
+
+.skills-container {
+    padding: 2rem 0rem 4rem 0rem;
+    display: none;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.drop-down-tabs {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.colorone {background-color: rgb(206, 206, 206); cursor: pointer;}
+/* .colorone:hover {background-color: rgb(231, 231, 231);} */
+
+.colortwo {background-color: rgb(185, 185, 185); cursor: pointer;}
+/* .colortwo:hover {background-color: rgb(231, 231, 231);} */
+
+.colorthree {background-color: rgb(138, 138, 138); cursor: pointer;}
+/* .colorthree:hover {background-color: rgb(231, 231, 231);} */
+
+.colorfour {background-color: rgb(117, 117, 117); cursor: pointer;}
+/* .colorfour:hover {background-color: rgb(231, 231, 231);} */

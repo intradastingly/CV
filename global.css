@@ -5,6 +5,16 @@
     font-family: 'Poppins', sans-serif;;
 }
 
-body, html {
+html {
     height: 100%;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    height: 100%;
+    box-shadow: 1px 7px 35px -13px rgba(0,0,0,0.88);
+    background-color: rgb(59, 59, 59);
+    
 }

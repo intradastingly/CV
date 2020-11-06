@@ -1,9 +1,12 @@
 .headshot {
     height: 20rem;
-    border-radius: 15%;
+    border-radius: 3%;
     box-shadow: 1px 7px 35px -13px rgba(0,0,0,0.88);
 }
 
+header {
+    background-color: white;
+}
 /* navigation menu */
 ul {
     display: flex;
@@ -62,6 +65,7 @@ h1 {
     font-weight: 400;
     font-size: 3rem;
     padding: 0rem 0rem 0rem 1rem;
+    color:rgb(59, 59, 59)
 }
 
 h2 {

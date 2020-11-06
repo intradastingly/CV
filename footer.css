@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    height: 20rem;
+}
+
+i {
+    font-size: 3rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+}
+
+i:hover {
+    color: rgb(95, 183, 255);
+    transition: 1s;
+    font-size: 3.5rem;
+}
+
+.favicon-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+}
+
+.contact-header {
+    margin-top: -4rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}

@@ -15,7 +15,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 0rem 7rem 4rem 7rem;
+    padding: 2rem 0rem 4rem 0rem;
+    background-color: rgb(185, 185, 185);
 }
 
 .skills-ul > li {
@@ -35,8 +36,9 @@ main {
 }
 
 .skills-container {
-    padding: 2rem 0rem 4rem 0rem;
-    display: none;
+    
+    
+    
 }
 
 .drop-down {

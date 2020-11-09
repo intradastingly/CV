@@ -6,22 +6,21 @@ function main(){
 
 function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
-    for(const tabs of dropDown){
-        tabs.onclick = toggleSection;
-        return tabs;
+    for(let i = 0; i < dropDown.length; i++){
+        dropDown[i].onclick = toggleSection;  
     }
 }
 
-function toggleSection(tabs){
+function toggleSection(dropDown){
     const sections = document.getElementsByClassName('section');
-    for(let i = 0; i < sections.length; i++){
+    for(let i = 0; i < sections.length; i++){    
         if (sections[i].classList.contains('display')) {
             sections[i].classList.remove('display');
-            console.log('tabs')
         } else {
             sections[i].classList.add('display')
         }
     }
+   
 }   
 
 const aboutMe = document.getElementById('aboutMe');

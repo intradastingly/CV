@@ -18,3 +18,12 @@ body {
     background-color: rgb(59, 59, 59);
     
 }
+
+.display {
+  display: none;
+}
+
+.filler {
+    height: 20rem;
+}
+

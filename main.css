@@ -17,6 +17,7 @@ main {
     flex-direction: row;
     padding: 2rem 0rem 4rem 0rem;
     background-color: rgb(185, 185, 185);
+    overflow: hidden;
     transition: 1s;
 }
 

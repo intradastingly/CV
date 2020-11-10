@@ -7,10 +7,6 @@ function main(){
 function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
     for(let i = 0; i < dropDown.length; i++){
-        /* dropDown[0].onclick = toggleAbout;
-        dropDown[1].onclick = toggleSkills;
-        dropDown[2].onclick = togglePortfolio;
-        dropDown[3].onclick = toggleSocial; */
         dropDown[i].onclick = toggleSection;
     }    
 }
@@ -26,41 +22,6 @@ function toggleSection(event){
     }   
 }
 
-/* function toggleAbout(){
-    const about = document.getElementById('aboutMe-expand');
-    about.classList.toggle('display');  
-}
+//string.includes('id');
+// make it so Id's are different. + "tab";
 
-function toggleSkills(){
-    const skills = document.getElementById('skills-expand');
-    skills.classList.toggle('display');
-}
-
-function togglePortfolio(){
-    const portofolio = document.getElementById('portfolio-expand');
-    portofolio.classList.toggle('display');
-}
-
-function toggleSocial(){
-    const socialMedia = document.getElementById('socialMedia-expand');
-    socialMedia.classList.toggle('display');
-} */
-
-
-
-/* function toggleTabs() {
-    const dropDown = document.getElementsByClassName("drop-down-tabs");
-    for(let i = 0; i < dropDown.length; i++){
-        dropDown[i].onclick = toggleSection;
-    }   
-}
-
- */
-
-/* function toggleTabs() {
-    const dropDown = document.getElementsByClassName("drop-down-tabs");
-    for(let i = 0; i < dropDown.length; i++){
-        dropDown[i].addEventListener('click', () => toggleSection(...dropDown));
-        dropDown[i].addEventListener('click', toggleSection.bind(null, ...dropDown));
-    }   
-} */

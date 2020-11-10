@@ -31,6 +31,10 @@ main {
     background-color: rgb(138, 138, 138);
 }
 
+.skills-header {
+    pointer-events: none;
+}
+
 .skills-ul > li {
     font-size: 1.4rem;
     list-style-type: none;

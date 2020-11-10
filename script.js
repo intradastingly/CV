@@ -9,37 +9,45 @@ function toggleTabs() {
     const skills = document.getElementById('skills');
     const portfolio = document.getElementById('portfolio');
     const socialMedia = document.getElementById('socialMedia');
-    aboutMe.addEventListener('click', test);
-    skills.addEventListener('click', test2);
-    portfolio.addEventListener('click', test3);
-    socialMedia.addEventListener('click', test4);
-    //takes tab button that is clicked
-    //expands proceeding section onclick 
+    aboutMe.addEventListener('click', aboutMeSection);
+    skills.addEventListener('click', skillsSection);
+    portfolio.addEventListener('click', portfolioSection);
+    socialMedia.addEventListener('click', socialMediaSection);
+    
 }
 
-function test(){
-    const expand = document.getElementById('aboutMe-expand');
-    expand.classList.toggle('display');
+function aboutMeSection(){
+    const about = document.getElementById('aboutMe-expand');
+    about.classList.toggle('display');
+    removePreviousSelection()
 }
 
-function test2(){
-    const expand = document.getElementById('skills-expand');
-    expand.classList.toggle('display');
+function skillsSection(){
+    const skills = document.getElementById('skills-expand');
+    skills.classList.toggle('display');
+    removePreviousSelection()
 }
 
-function test3(){
-    const expand = document.getElementById('portfolio-expand');
-    expand.classList.toggle('display');
+function portfolioSection(){
+    const portofolio = document.getElementById('portfolio-expand');
+    portofolio.classList.toggle('display');  
+    removePreviousSelection()
 }
 
-function test4(){
-    const expand = document.getElementById('socialMedia-expand');
-    expand.classList.toggle('display');
+function socialMediaSection(){
+    const socialMedia = document.getElementById('socialMedia-expand');
+    socialMedia.classList.toggle('display');
+    removePreviousSelection()
 }
 
-
-
-
+function removePreviousSelection(){
+    const sections = document.getElementsByClassName('section');
+    for(let i = 0; i < sections.length; i++){
+        if(sections[i].classList.contains('display')){  
+        sections[i].classList.add('display');
+    }
+}
+}
 /* function toggleSection(){
     const sections = document.getElementsByClassName('section');
     for(let i = 0; i < sections.length; i++){    
@@ -52,14 +60,8 @@ function test4(){
    
 }   */ 
 
-
-
-    const aboutMe = document.getElementById('aboutMe');
-    
-
-    //document.getElementById('aboutMe')[0].classList.toggle("responsive");
-
-    /* const dropDown = document.getElementsByClassName("drop-down-tabs");
+/* function toggleTabs() {
+    const dropDown = document.getElementsByClassName("drop-down-tabs");
     for(let i = 0; i < dropDown.length; i++){
         dropDown[i].onclick = toggleSection; 
-    }  */ 
+}  */

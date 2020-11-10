@@ -5,59 +5,48 @@ function main(){
 }
 
 function toggleTabs() {
-    const aboutMe = document.getElementById('aboutMe');
-    const skills = document.getElementById('skills');
-    const portfolio = document.getElementById('portfolio');
-    const socialMedia = document.getElementById('socialMedia');
-    aboutMe.addEventListener('click', aboutMeSection);
-    skills.addEventListener('click', skillsSection);
-    portfolio.addEventListener('click', portfolioSection);
-    socialMedia.addEventListener('click', socialMediaSection); 
+    const dropDown = document.getElementsByClassName("drop-down-tabs");
+    for(let i = 0; i < dropDown.length; i++){
+        /* dropDown[0].onclick = toggleAbout;
+        dropDown[1].onclick = toggleSkills;
+        dropDown[2].onclick = togglePortfolio;
+        dropDown[3].onclick = toggleSocial; */
+        dropDown[i].onclick = toggleSection;
+    }    
 }
 
-function toggleTabs() {
-    const aboutMe = document.getElementById('aboutMe');
-    const skills = document.getElementById('skills');
-    const portfolio = document.getElementById('portfolio');
-    const socialMedia = document.getElementById('socialMedia');
-    aboutMe.addEventListener('click', aboutMeSection);
-   skills.addEventListener('click', skillsSection);
-    portfolio.addEventListener('click', portfolioSection);
-    socialMedia.addEventListener('click', socialMediaSection); 
+function toggleSection(event){
+    const sections = document.getElementsByClassName('section');
+    for(const section of sections){
+        if (section.id === event.target.id){
+            section.classList.remove('display')
+        } else {
+            section.classList.add('display');
+        }
+    }   
 }
 
-function aboutMeSection(){
+/* function toggleAbout(){
     const about = document.getElementById('aboutMe-expand');
-    about.classList.toggle('display');
-
+    about.classList.toggle('display');  
 }
 
-function skillsSection(){
+function toggleSkills(){
     const skills = document.getElementById('skills-expand');
     skills.classList.toggle('display');
-    removePreviousSelection;
 }
 
-function portfolioSection(){
+function togglePortfolio(){
     const portofolio = document.getElementById('portfolio-expand');
-    portofolio.classList.toggle('display');  
-    removePreviousSelection;
+    portofolio.classList.toggle('display');
 }
 
-function socialMediaSection(){
+function toggleSocial(){
     const socialMedia = document.getElementById('socialMedia-expand');
-    socialMedia.classList.toggle('display');  
-    removePreviousSelection;
-}
+    socialMedia.classList.toggle('display');
+} */
 
-function removePreviousSelection(){
-    const sections = document.getElementsByClassName('section');
-    for(let i = 0; i < sections.length; i++){   
-        if (!sections[i].classList.contains('display')){
-            sections[i].classList.add('display')
-        }
-    }
-}
+
 
 /* function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
@@ -66,13 +55,12 @@ function removePreviousSelection(){
     }   
 }
 
-function toggleSection(){
-    const sections = document.getElementsByClassName('section');
-    for(let i = 0; i < sections.length; i++){    
-        if (sections[i].classList.contains('display')){
-            sections[i].classList.remove('display')
-        } else {
-            sections[i].classList.add('display');
-        }
+ */
+
+/* function toggleTabs() {
+    const dropDown = document.getElementsByClassName("drop-down-tabs");
+    for(let i = 0; i < dropDown.length; i++){
+        dropDown[i].addEventListener('click', () => toggleSection(...dropDown));
+        dropDown[i].addEventListener('click', toggleSection.bind(null, ...dropDown));
     }   
 } */

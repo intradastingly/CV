@@ -4,7 +4,7 @@ function main(){
     toggleTabs();
 }
 
-function toggleTabs() {
+/* function toggleTabs() {
     const aboutMe = document.getElementById('aboutMe');
     const skills = document.getElementById('skills');
     const portfolio = document.getElementById('portfolio');
@@ -46,6 +46,24 @@ function removePreviousSelection(){
             sections[i].classList.add('display')
         }
     }
+} */
+
+
+ function toggleTabs() {
+    const dropDown = document.getElementsByClassName("drop-down-tabs");
+    for(let i = 0; i < dropDown.length; i++){
+        dropDown[i].onclick = function toggleSection(){
+            const sections = document.getElementsByClassName('section');
+            for(let i = 0; i < sections.length; i++){  
+                sections[i] = dropDown[i];  
+                if (sections[i].classList.contains('display')){
+                    sections[i].classList.remove('display')
+                } else {
+                    sections[i].classList.add('display');
+                }
+            }  
+        };
+    }   
 }
 
 
@@ -56,15 +74,13 @@ function removePreviousSelection(){
     }   
 }
 
-function toggleSection(dropDown){
+function toggleSection(){
     const sections = document.getElementsByClassName('section');
     for(let i = 0; i < sections.length; i++){    
-        if (!sections[i].classList.contains('display')){
-            sections[i].classList.add('display')
-        } sections[i].classList.remove('display');
-            } else {
-        sections[i].classList.add('display')
+        if (sections[i].classList.contains('display')){
+            sections[i].classList.remove('display')
+        } else {
+            sections[i].classList.add('display');
         }
     }   
-}
- */
+} */

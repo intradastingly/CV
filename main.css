@@ -11,6 +11,10 @@ main {
     padding: 2rem;
 }
 
+.about-me {
+    background-color: rgb(206, 206, 206);
+}
+
 .skills-container {
     display: flex;
     justify-content: space-evenly;
@@ -19,6 +23,14 @@ main {
     background-color: rgb(185, 185, 185);
     overflow: hidden;
     transition: 1s;
+}
+
+.portfolio {
+    background-color: rgb(138, 138, 138);
+}
+
+.social-media {
+    background-color: rgb(117, 117, 117);
 }
 
 .skills-ul > li {

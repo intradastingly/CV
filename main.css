@@ -12,25 +12,23 @@ main {
 }
 
 .about-me {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(221, 219, 219);
 }
 
-.skills-container {
+.skills {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     padding: 2rem 0rem 4rem 0rem;
-    background-color: rgb(185, 185, 185);
-    overflow: hidden;
-    transition: 1s;
+    background-color: rgb(202, 202, 202);
 }
 
 .portfolio {
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(167, 167, 167);
 }
 
 .social-media {
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(138, 138, 138);
 }
 
 .skills-ul > li {
@@ -41,35 +39,29 @@ main {
     font-weight: 200;
 }
 
-.line {
-    height: 2px;
-    background-color: black;
-    width: 30rem;
-    margin-bottom: 1rem;
-    left: 0;
-}
-
-#drop-down {
+.drop-down {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    
 }
 
 .drop-down-tabs {
     padding: 1rem;
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
-.colorone {background-color: rgb(206, 206, 206); cursor: pointer;}
+.colorone {background-color: rgb(221, 219, 219); cursor: pointer;}
 /* .colorone:hover {background-color: rgb(231, 231, 231);} */
 
-.colortwo {background-color: rgb(185, 185, 185); cursor: pointer;}
+.colortwo {background-color: rgb(202, 202, 202); cursor: pointer;}
 /* .colortwo:hover {background-color: rgb(231, 231, 231);} */
 
-.colorthree {background-color: rgb(138, 138, 138); cursor: pointer;}
+.colorthree {background-color: rgb(167, 167, 167); cursor: pointer;}
 /* .colorthree:hover {background-color: rgb(231, 231, 231);} */
 
-.colorfour {background-color: rgb(117, 117, 117); cursor: pointer;}
+.colorfour {background-color: rgb(138, 138, 138); cursor: pointer;}
 /* .colorfour:hover {background-color: rgb(231, 231, 231);} */
 

@@ -19,7 +19,7 @@
             <img class="headshot" src="./images/headshot.png" alt="headshot author">
             <div class="header-text">
                 <h1>Asaf Läckgren</h1>
-                <h2>Web Developer, Programmer, Designer</h2>
+                <h2 class="h2-header">Web Developer, Programmer, Designer</h2>
                 <ul class = "header-ul">
                     <li><b>Age:</b> 30 years.</li>
                     <li><b>Bases:</b> Gothenburg Sweden & Bangkok Thailand.</li>
@@ -33,20 +33,20 @@
         <div class="drop-down">
             
             <div class="drop-down-tabs colorone" id="aboutMe-tab">
-                <h2 class="skills-header">About Me</h2>
+                <h2 class="tabs-header">About Me</h2>
             </div>
             <div class="drop-down-tabs colortwo" id="skills">
-                <h2 class="skills-header">Skills</h2>
+                <h2 class="tabs-header">Skills</h2>
             </div>
             <div class="drop-down-tabs colorthree" id="portfolio">
-                <h2 class="skills-header">Portfolio</h2>
+                <h2 class="tabs-header">Portfolio</h2>
             </div>
             <div class="drop-down-tabs colorfour" id="contact">
-                <h2 class="skills-header">Contact</h2>
+                <h2 class="tabs-header">Contact</h2>
             </div>
         </div>
 
-            <div class="about-me section" id="aboutMe-tab">
+            <div class="about-me display section" id="aboutMe-tab">
                 <a class="square"></a>
                 <div class="filler">
                     <p class = "about-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quo,
@@ -95,9 +95,17 @@
                 </div>
             </div>
 
-            <div class="social-media display section" id="contact">
+            <div class="social-media  section" id="contact">
                 <div class="filler">
-                    filler
+                    <form method="post" action="mailto:asaf_lackgren@hotmail.com" enctype=”multipart/form-data” name=”EmailForm”>
+                        <h2 class="h2-form">Send me a Message</h2>
+                        <label for="text" class="font"></label>
+                        <input type="text" id="text" required placeholder="Name">
+                        <label for="email" class="font"></label>
+                        <input type="email" id="email" required placeholder="Email">
+                        <textarea placeholder="Message"></textarea>
+                        <button>SUBMIT</button>
+                    </form>
                 </div>
             </div>
 

@@ -38,7 +38,7 @@ h1 {
     color:rgb(59, 59, 59)
 }
 
-h2 {
+.h2-header {
     font-weight: 400;
     padding: 0rem 0rem 0rem 1rem;
 }

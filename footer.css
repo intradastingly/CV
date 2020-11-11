@@ -10,13 +10,12 @@ footer {
 i {
     font-size: 3rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    color:rgb(231, 231, 231);
+    color:rgb(155, 155, 155);
 }
 
 i:hover {
-    color: rgb(95, 183, 255);
+    color: rgb(255, 255, 255);
     transition: 1s;
-    font-size: 3.5rem;
 }
 
 .favicon-container {

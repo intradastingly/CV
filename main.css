@@ -13,22 +13,34 @@ main {
 
 .about-me {
     background-color: rgb(221, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    align-items: center;
     padding: 2rem 0rem 4rem 0rem;
     background-color: rgb(202, 202, 202);
+    transition: all 0.5s ease-in-out;
+    height: 45rem;
 }
 
 .portfolio {
     background-color: rgb(167, 167, 167);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .social-media {
     background-color: rgb(138, 138, 138);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skills-header {
@@ -46,8 +58,7 @@ main {
 .drop-down {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    
+        width: 100%;   
 }
 
 .drop-down-tabs {
@@ -55,6 +66,13 @@ main {
     width: 100%;
     text-align: center;
     cursor: pointer;
+}
+
+.filler {
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .colorone {background-color: rgb(221, 219, 219); cursor: pointer;}

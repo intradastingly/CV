@@ -1,9 +1,11 @@
 window.addEventListener('load', main);
 
+/** initializes tab toggle */
 function main(){
     toggleTabs();
 }
 
+/** Applies on click event to 4 tabs on the page */
 function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
     for(let i = 0; i < dropDown.length; i++){
@@ -11,6 +13,10 @@ function toggleTabs() {
     }    
 }
 
+/**
+ * 
+ * @param {mouseclick} event 
+ */
 function toggleSection(event){
     const sections = document.getElementsByClassName('section');
     for(const section of sections){

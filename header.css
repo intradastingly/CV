@@ -7,41 +7,6 @@
 header {
     background-color: white;
 }
-/* navigation menu */
-ul {
-    display: flex;
-    flex-direction: column;
-}
-
-.nav-box > li {
-    list-style-type: none;
-    padding: 1.2rem;
-    font-size: 1.2rem;
-    color: white;
-    width: 100%;
-    text-align: center;
-}
-
-.nav-box > li:hover {
-    background-color: rgb(126, 124, 122);
-    cursor: pointer;
-    transition: 1s;
-    color: rgb(46, 46, 46);
-}
-
-.navigation-container {
-    background-color: rgb(59, 59, 59);
-    position: fixed;
-    margin: 2rem;
-    margin-top: 6rem;
-}
-
-.center-nav {
-    display: flex;
-    justify-content: flex-end; 
-    align-content: center;
-}
-/* navigation menu */
 
 .container {
     height: 30rem;
@@ -54,6 +19,18 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.header-ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 0rem 0rem 2.5rem;
+}
+
+.header-ul > li{
+    font-size: 1.1rem;
+    padding: 0.1rem;
+}
+
 .about-p {
     width: 30rem;
     padding: 1rem 1rem 0rem 2rem;
@@ -72,3 +49,4 @@ h2 {
     font-weight: 400;
     padding: 0rem 0rem 0rem 1rem;
 }
+

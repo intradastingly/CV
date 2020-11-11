@@ -30,4 +30,3 @@ function toggleSection(event){
 
 //string.includes('id');
 // make it so Id's are different. + "tab";
-

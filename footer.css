@@ -4,9 +4,12 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: rgb(59, 59, 59);
-    height: 40%;
+    height: auto;
 }
 
+.footer {
+    padding: 6rem;
+}
 i {
     font-size: 3rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -22,8 +25,8 @@ i:hover {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    border-bottom: solid 2px rgb(231, 231, 231);
-    border-top: solid 2px rgb(231, 231, 231);
+    border-bottom: dotted 2px rgb(231, 231, 231);
+    
 }
 
 .contact-header {

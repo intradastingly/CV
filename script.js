@@ -15,7 +15,7 @@ function toggleTabs() {
 
 /**
  * 
- * @param {mouseclick} event 
+ * @param {mouseclick} event displays main sections on page on click.
  */
 function toggleSection(event){
     const sections = document.getElementsByClassName('section');
@@ -30,3 +30,7 @@ function toggleSection(event){
 
 //string.includes('id');
 // make it so Id's are different. + "tab";
+
+//add javascript that changes color of buttons 
+
+//maybe ad favicons to main sections or tabs 

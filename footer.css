@@ -4,7 +4,7 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: rgb(59, 59, 59);
-    height: 50%;
+    height: 40%;
 }
 
 i {
@@ -34,7 +34,25 @@ i:hover {
 }
 
 .copyright {
-    color: White;
+    color: rgb(155, 155, 155);
     text-align: center;
     background-color: rgb(59, 59, 59);
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links-container > a {
+    color: rgb(155, 155, 155);
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.links-container > a:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
 }

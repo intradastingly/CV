@@ -5,13 +5,11 @@
     font-weight: 300;
     pointer-events: none;
 }
-
 .drop-down {
     display: flex;
     justify-content: space-evenly;
     width: 100%;   
 }
-
 .drop-down-tabs {
     padding: 0.5rem;
     width: 100%;

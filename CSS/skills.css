@@ -17,6 +17,11 @@
     list-style-type: none;
     padding: 0.3rem;
     list-style-type: square;
-    font-weight: 200;
+    font-weight: 300;
 }
-
+.line {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    background-color: black;
+    height: 0.08rem;
+    width: 50rem;
+}

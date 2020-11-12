@@ -7,7 +7,7 @@
 html {
     height: 100%;
     background-color: white;
-    width: 85%;
+    width: 55%;
     margin: auto;
     overflow-y: scroll;
 }
@@ -27,12 +27,6 @@ h1 {
     font-size: 3rem;
     padding: 0rem 0rem 0rem 1rem;
     color:rgb(59, 59, 59)
-}
-.line {
-    margin: 0.5rem 0rem 0.5rem 0rem;
-    background-color: black;
-    height: 0.08rem;
-    width: 50rem;
 }
 .shadow-wrapper {
     box-shadow: -1px 0px 24px 3px rgba(0,0,0,0.48);

@@ -67,6 +67,10 @@ main {
     border-right: solid 0.5px rgb(155, 155, 155);
 }
 
+#aboutme-tab {
+    color: rgb(59, 59, 59);
+}
+
 .drop-down-tabs:active {background-color: white;}
 
 .filler {

@@ -9,7 +9,8 @@ function main(){
 function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
     for(let i = 0; i < dropDown.length; i++){
-        dropDown[i].onclick = toggleSection;
+        dropDown[i].addEventListener('click',toggleSection);
+        dropDown[i].addEventListener('click',changeButtonColor); 
     }    
 }
 
@@ -28,6 +29,16 @@ function toggleSection(event){
     }   
 }
 
+function changeButtonColor(event){
+    const tab = document.getElementsByClassName("drop-down-tabs");
+    for(const color of tab){
+    if (!color.classList.contains('tab-color')){
+        color.classList.add('tab-color')
+    } else {
+        color.classList.remove('tab-color')
+    }
+}
+}
 //string.includes('id');
 // make it so Id's are different. + "tab";
 

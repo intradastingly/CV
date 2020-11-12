@@ -26,10 +26,6 @@ h1 {
     color:rgb(59, 59, 59)
 }
 
-.display {
-    display: none;
-}
-
 .line {
     margin: 0.5rem 0rem 0.5rem 0rem;
     background-color: black;
@@ -42,3 +38,12 @@ h1 {
     overflow: auto;
 }
 
+/*Javascript CSS injection*/
+.display {
+    display: none;
+}
+
+.tab-color {
+    background-color: rgb(221, 219, 219);
+}
+/*Javascript CSS injection*/

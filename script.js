@@ -29,6 +29,10 @@ function toggleSection(event){
     }   
 }
 
+/**
+ * 
+ * @param {mouseclick} event changes tab color to match section color on click for navigability.
+ */
 function changeButtonColor(event){
     const tab = document.getElementsByClassName("drop-down-tabs");
     for(const color of tab){

@@ -135,3 +135,18 @@ button {
     color: rgb(187, 187, 187); 
 }
 /* contact form */
+
+.filler-porto {
+    height :40rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tear {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 10rem;
+}

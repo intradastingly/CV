@@ -36,14 +36,14 @@ function toggleSection(event){
 function changeButtonColor(event){
     const tab = document.getElementsByClassName("drop-down-tabs");
     for(const color of tab){
-    if (color.id === event.target.id){
-        color.style.color = 'rgb(59, 59, 59)';
-        color.classList.add('tab-color')
-    } else {
-        color.style.color = 'rgb(187, 187, 187)';
-        color.classList.remove('tab-color')
+        if (color.id === event.target.id){
+            color.style.color = 'rgb(59, 59, 59)';
+            color.classList.add('tab-color')
+        } else {
+            color.style.color = 'rgb(187, 187, 187)';
+            color.classList.remove('tab-color')
+        }
     }
-}
 }
 //string.includes('id');
 // make it so Id's are different. + "tab";

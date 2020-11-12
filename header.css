@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(to top, rgb(238, 238, 238), rgb(255, 255, 255));
 }
 
 .header-text {

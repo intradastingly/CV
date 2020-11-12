@@ -44,6 +44,7 @@ h1 {
 }
 
 .tab-color {
-    background-color: rgb(221, 219, 219);
+    background: white;
 }
 /*Javascript CSS injection*/
+rgb(221, 219, 219)

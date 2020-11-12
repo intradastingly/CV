@@ -1,5 +1,6 @@
-.skills-container {padding: 2rem;}
-
+.skills-container {
+    padding: 2rem;
+}
 .skills {
     display: flex;
     justify-content: space-evenly;
@@ -8,9 +9,9 @@
     padding: 1rem 0rem 1rem 0rem;
     height: auto;
 }
-
-.skills-h3 {font-weight: 400;}
-
+.skills-h3 {
+    font-weight: 400;
+}
 .skills-ul > li {
     font-size: 1.2rem;
     list-style-type: none;

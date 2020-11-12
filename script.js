@@ -29,7 +29,7 @@ function toggleSection(event){
 }
 
 /**
- * @param {mouseclick} event changes tab color to match section color on click for navigability.
+ * @param {mouseclick} event changes tab color to white on click for easier navigability.
  */
 function changeButtonColor(event){
     const tab = document.getElementsByClassName("drop-down-tabs");
@@ -43,6 +43,12 @@ function changeButtonColor(event){
         }
     }
 }
+
 //string.includes('id');
 // make it so Id's are different. + "tab";
+//write readme
+//make sure github pages is working
+//finalize mobile version of site. 
+// add education 
+
 

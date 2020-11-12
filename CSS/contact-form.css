@@ -1,0 +1,39 @@
+.h2-form {
+    color: rgb(59, 59, 59);
+    font-weight: 300;
+    margin: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label, input {
+    all: unset;
+    background-color: white;
+    padding-left: 0.2rem; 
+    font-size: 1.2rem;
+    width: 30rem;
+    margin: 0.3rem;
+}
+textarea {
+    all: unset;
+    background-color: white;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 20rem;
+}
+button {
+    all: unset;
+    border-radius: 3%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1.3rem;
+    background-color: rgb(59, 59, 59);
+    width: 10rem;
+    height: 3rem;
+    color: rgb(187, 187, 187); 
+}

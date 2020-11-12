@@ -15,7 +15,6 @@ function toggleTabs() {
 }
 
 /**
- * 
  * @param {mouseclick} event displays main sections on page on click.
  */
 function toggleSection(event){
@@ -30,7 +29,6 @@ function toggleSection(event){
 }
 
 /**
- * 
  * @param {mouseclick} event changes tab color to match section color on click for navigability.
  */
 function changeButtonColor(event){
@@ -48,6 +46,3 @@ function changeButtonColor(event){
 //string.includes('id');
 // make it so Id's are different. + "tab";
 
-//add javascript that changes color of buttons 
-
-//maybe ad favicons to main sections or tabs 

@@ -1,0 +1,29 @@
+.tab-i {
+    margin: 0rem 0.7rem 0rem 0rem;
+}
+.tabs-header {
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;   
+}
+
+.drop-down-tabs {
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+    background-color: rgb(59, 59, 59);
+    border-left: solid 0.5px rgb(155, 155, 155);
+    border-right: solid 0.5px rgb(155, 155, 155);
+}
+.drop-down-tabs:active {
+    background-color: white;
+}
+
+

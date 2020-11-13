@@ -39,7 +39,6 @@
 }
 
 @media only screen and (max-width: 540px) { 
-
     .filler{padding: 2rem;}
 
     .container {height: 15rem;}
@@ -86,6 +85,7 @@
     .h3-aboutme {
         margin-left: 1.5rem;
     }
+
     .about-p {
         margin-left: 1.5rem;
         width: 90%;
@@ -106,9 +106,8 @@
         font-size: 1.1rem;
         white-space: nowrap;
     }
-    .drop-down {
-        display: inline;
-    }
+
+    .drop-down {display: inline;}
 
     .drop-down-tabs {
         padding: 0.8rem;
@@ -118,8 +117,6 @@
 
     textarea, label, input {width: 90%;}
 
-    .filler-porto {
-        height: 25rem;
-    }
+    .filler-porto {height: 25rem;}
 
 }

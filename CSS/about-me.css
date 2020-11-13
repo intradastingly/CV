@@ -1,15 +1,18 @@
 #aboutMe-tab {
     color: rgb(59, 59, 59);
 }
+
 .h3-aboutme {
     font-weight: 400;
 }
+
 .about-p {
     width: 45rem;
     padding: 0.5rem 0rem 2rem 0rem;
     font-weight: 300;
     font-size: 1.2rem;
 }
+
 .about-me {
     display: flex;
     justify-content: center;

@@ -49,19 +49,19 @@ function changeButtonColor(event){
 }
 
 /**
- * 
+ * Removes Desktiop version of the drop down tabs.
  */
 function removeDesktopSections(){
     const desktopDivs = document.getElementById('screen-width');
     if (document.documentElement.clientWidth <= 500) {
         desktopDivs.style.display = "none";
-    } else if (document.documentElement.clientWidth >= 500){
+    } else if (document.documentElement.clientWidth >= 501){
         desktopDivs.style.display = "flex";
     }
 }
 
 /**
- * 
+ * Adds mobile version to the drop down tabs.
  */
 function addMobileSections(){
     const mobileDivs = document.getElementsByClassName('mobile');

@@ -9,7 +9,7 @@ function main(){
 
 
 
-/** Applies on click event to 4 tabs on the page */
+/** Applies click event to the 4 navigation tabs on the page */
 function toggleTabs() {
     const dropDown = document.getElementsByClassName("drop-down-tabs");
     for(let i = 0; i < dropDown.length; i++){
@@ -49,7 +49,7 @@ function changeButtonColor(event){
 }
 
 /**
- * Removes Desktiop version of the drop down tabs.
+ * @param {screen size} Removes Desktiop version of the drop down tabs.
  */
 function removeDesktopSections(){
     const desktopDivs = document.getElementById('screen-width');
@@ -61,7 +61,7 @@ function removeDesktopSections(){
 }
 
 /**
- * Adds mobile version to the drop down tabs.
+ * @param {screen size} Adds mobile version to the drop down tabs. Allows them to fit inside.
  */
 function addMobileSections(){
     const mobileDivs = document.getElementsByClassName('mobile');
@@ -75,7 +75,6 @@ function addMobileSections(){
     
 }
 
-//string.includes('id');
 // make it so Id's are different. + "tab";
 //write readme
 //make sure github pages is working

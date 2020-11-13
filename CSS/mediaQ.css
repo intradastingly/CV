@@ -82,7 +82,13 @@
         height: 20rem;
     }
 
-    .h3-aboutme {
+    .h3-aboutme  {
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
+
+    .h2-aboutme {
+        font-size: 1.4rem;
         margin-left: 1.5rem;
     }
 

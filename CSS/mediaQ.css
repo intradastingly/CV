@@ -1,4 +1,4 @@
-/*Changes width of html element based on screen size*/
+/*Changes width of html element based on screen size for large desktops*/
 @media only screen and (max-width: 1199.98px) {    
     html {width: 100%;}  
 }
@@ -38,6 +38,7 @@
     .text-links {display: none;}
 }
 
+/*Vertical medium sized phones*/
 @media only screen and (max-width: 540px) { 
     .filler{padding: 2rem;}
 
@@ -67,6 +68,7 @@
     textarea, label, input {width: 25rem;}
 }
 
+/*mobile phones*/
 @media only screen and (max-width: 508.98px) { 
     .h2-header, h1 {
         font-weight: 500;

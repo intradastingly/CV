@@ -50,7 +50,7 @@ function changeButtonColor(event){
 }
 
 /**
- * @param {screen size} Removes Desktiop version of the drop down tabs.
+ * @param {screen size} Removes Desktop version of the drop down tabs.
  */
 function removeDesktopSections(){
     const desktopDivs = document.getElementById('screen-width');

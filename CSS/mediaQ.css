@@ -13,8 +13,9 @@
 }
 
 /*Vertical Ipad*/
+
 @media only screen and (max-width: 767.98px) { 
-    .line{width: 40rem;}
+    .line{width: 32rem;}
 
     .about-p {
         width: 30rem;
@@ -46,7 +47,12 @@
 
     .tabs-header {font-size: 1.1rem;}
     
-    .line{width: 30rem;}
+    .line{width: 25rem;}
+
+    .skills-ul > li {
+        text-align: center;
+        list-style-type: none;
+    }
 
     .about-p {
         width: 23rem;

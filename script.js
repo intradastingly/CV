@@ -62,7 +62,7 @@ function removeDesktopSections(){
 }
 
 /**
- * @param {screen size} Adds mobile version to the drop down tabs. Allows them to fit inside.
+ * @param {screen size} Adds mobile version for the drop down tabs. Allows them to fit inside tabs when vertical.
  */
 function addMobileSections(){
     const mobileDivs = document.getElementsByClassName('mobile');
@@ -76,8 +76,6 @@ function addMobileSections(){
     
 }
 
-//make sure github pages is working
-//about me section 
 
 
 

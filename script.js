@@ -24,7 +24,8 @@ function toggleTabs() {
 function toggleSection(event){
     const sections = document.getElementsByClassName('section');
     for(const section of sections){
-        if (section.id === event.target.id){
+        const sectionId = section.id + '-tab';
+        if (sectionId === event.target.id){ 
             section.classList.remove('display')
         } else {
             section.classList.add('display');
@@ -75,11 +76,8 @@ function addMobileSections(){
     
 }
 
-// make it so Id's are different. + "tab";
-//write readme
 //make sure github pages is working
-//finalize mobile version of site. 
-// add education 
-//write about me section
+//about me section 
+
 
 

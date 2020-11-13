@@ -1,9 +1,13 @@
 window.addEventListener('load', main);
 
-/** initializes tab toggle */
+/** initializes tab toggle & sets an interval that checks for the width of the screen*/
 function main(){
     toggleTabs();
+    setInterval(removeDesktopSections, 100); 
+    setInterval(addMobileSections, 100); 
 }
+
+
 
 /** Applies on click event to 4 tabs on the page */
 function toggleTabs() {
@@ -44,12 +48,39 @@ function changeButtonColor(event){
     }
 }
 
+/**
+ * 
+ */
+function removeDesktopSections(){
+    const desktopDivs = document.getElementById('screen-width');
+    if (document.documentElement.clientWidth <= 500) {
+        desktopDivs.style.display = "none";
+    } else if (document.documentElement.clientWidth >= 500){
+        desktopDivs.style.display = "flex";
+    }
+}
+
+/**
+ * 
+ */
+function addMobileSections(){
+    const mobileDivs = document.getElementsByClassName('mobile');
+    for(const divs of mobileDivs){
+        if (document.documentElement.clientWidth >= 501) {
+            divs.style.display = 'none';
+        } else if (document.documentElement.clientWidth <= 500){
+            divs.style.display = '';
+        }
+    }
+    
+}
+
 //string.includes('id');
 // make it so Id's are different. + "tab";
 //write readme
 //make sure github pages is working
 //finalize mobile version of site. 
 // add education 
-//wrote about me section
+//write about me section
 
 

@@ -36,21 +36,108 @@
         </header>
         <main>
             <!--Navigation Tabs-->
-            <div class="drop-down">
+            <!--About-me-->
+            <div class="drop-down" id="drop-down">
                 <div class="drop-down-tabs tab-color" id="aboutMe-tab">
                     <h2 class="tabs-header"><i class="fas fa-user tab-i"></i>About Me</h2>
                 </div>
+                    <div class="about-me section mobile" id="aboutMe-tab">
+                        <div class="filler">
+                            <h2 class="h3-aboutme">About Me</h2>
+                            <p class = "about-p">I can lift a fully-grown horse above my head, and I can hold my breath for 10 minutes.
+                                To settle a wager, I once ate a kilogram of surströmming and ran a mile in the
+                                nude. I cannot feel pain, and I can see for two miles unaided by a lens. No man can kill me. 
+                                A medical doctor and two priests have written and signed a document 
+                                confirming that I have no soul.</p>
+                            <h2 class="h3-aboutme">Work Experience</h2>
+                            <p class = "about-p">I seek only to educate you, my prospective customer, about my history and methods. 
+                                I am not a braggart, but I do not shrink from the truth for the purpose of humility. I am not a 
+                                prideful or boastful man, but only by detailing the true and verifiable facts of myself and my 
+                                business can I properly describe my methods. I will now lay out my list of feats, superior traits, 
+                                and admirable deeds:</p>
+                        </div>
+                    </div
+                </div>
+                <!--Skills-->
                 <div class="drop-down-tabs " id="skills">
                     <h2 class="tabs-header"><i class="fas fa-hammer tab-i"></i>Skills</h2>
                 </div>
-                <div class="drop-down-tabs " id="portfolio">
+                    <div class="display section skills-container mobile" id="skills">
+                        <div class="skills">
+                            <div>
+                                <h3 class="skills-h3">Technical Skills & Tools</h2>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="skills skills-ul-small">
+                            <div>
+                                <ul class="skills-ul ">
+                                    <li>Javascript</li>
+                                    <li>HTML(5)</li>
+                                    <li>CSS(3)</li>
+                                    <li>CSS Grid</li>
+                                    <li>JSON</li>
+                                    <li>SSH</li>
+                                    <li>AJAX</li>
+                                    <li>XML</li>
+                                    <li>PHP</li>
+                                <ul>
+                            </div>
+                            <div>
+                                <ul class="skills-ul">
+                                    <li>Bootstrap</li>
+                                    <li>JSDoc</li>
+                                    <li>Windows</li>
+                                    <li>Linux</li>
+                                    <li>MacOSX</li>
+                                    <li>JQuery</li>
+                                    <li>Visual Studio Code</li>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Adobe Illustrator</li>
+                                <ul>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div>
+                                <h3 class="skills-h3">Education</h2>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                <!--Portfolio-->
+                <div class="drop-down-tabs" id="portfolio">
                     <h2 class="tabs-header"><i class="fas fa-palette tab-i"></i>Portfolio</h2>
                 </div>
+
+                <div class="portfolio display section mobile" id="portfolio">
+                    <div class="filler-porto">
+                        <i class="fas fa-sad-tear tear"></i>
+                        <h2 class= "sad"> Content coming soon</h2>
+                    </div>
+                </div>
+
+                <!--Contact-->
                 <div class="drop-down-tabs " id="contact">
                     <h2 class="tabs-header"><i class="fas fa-envelope tab-i"></i>Contact</h2>
                 </div>
+                
+                <div class="contact display section mobile" id="contact">
+                    <div class="filler">
+                        <form method="post" action="mailto:asaf_lackgren@hotmail.com" enctype=”multipart/form-data” name=”EmailForm”>
+                            <h2 class="h2-form">Send me a Message</h2>
+                            <label for="text" class="font"></label>
+                            <input type="text" id="text" required placeholder="Name">
+                            <label for="email" class="font"></label>
+                            <input type="email" id="email" required placeholder="Email">
+                            <textarea placeholder="Message" required></textarea>
+                            <button>SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
-            <!--Main dropdown sections-->
+            <!-- Main dropdown sections-->
+            <div id="screen-width">
                 <div class="about-me section" id="aboutMe-tab">
                     <div class="filler">
                         <h2 class="h3-aboutme">About Me</h2>
@@ -103,10 +190,13 @@
                             <ul>
                         </div>
                     </div>
-                    <div class="skills">
+                    <div class="skills-edu">
                         <div>
                             <h3 class="skills-h3">Education</h2>
                             <div class="line"></div>
+                        </div>
+                        <div>
+                            <h3>School</h3>
                         </div>
                     </div>
                 </div>
@@ -130,8 +220,8 @@
                             <button>SUBMIT</button>
                         </form>
                     </div>
-                </div>
-
+                </div> 
+            </div>
         </main>
         <footer class="footer">
             <div class="favicon-container">

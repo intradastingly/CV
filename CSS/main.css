@@ -24,4 +24,12 @@
     background-color: white;
 }
 
+/*small screen drop down*/ 
 
+.display-small {
+    display: none;
+}
+
+#screen-width {
+    justify-content: center;
+}

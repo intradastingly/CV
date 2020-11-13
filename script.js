@@ -50,5 +50,6 @@ function changeButtonColor(event){
 //make sure github pages is working
 //finalize mobile version of site. 
 // add education 
+//wrote about me section
 
 

@@ -10,4 +10,3 @@ The goal of the project was to create a personalized CV website to present to pr
 Link to repo [here](https://github.com/intradastingly/CV.git)
 and link to the page [here](https://intradastingly.github.io/CV/)
 
-test

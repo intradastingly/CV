@@ -1,13 +1,11 @@
 window.addEventListener('load', main);
-
+addMobileSections();
 /** initializes tab toggle & sets an interval that checks for the width of the screen*/
 function main(){
     toggleTabs();
     setInterval(removeDesktopSections, 100); 
     setInterval(addMobileSections, 100); 
 }
-
-
 
 /** Applies click event to the 4 navigation tabs on the page */
 function toggleTabs() {
